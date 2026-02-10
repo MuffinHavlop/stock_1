@@ -103,5 +103,5 @@ while True:
                   f"VIN GROUP: ${vin_stock}\n"
                   f"RETAIL AND INDUSTRIAL: ${retail_stock}\n"
                   f"TECHNOLOGY: ${tech_stock}")
-        time.sleep(10)
+        time.sleep(6)
 

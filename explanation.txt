@@ -1,0 +1,1 @@
+Trying to simulate stock buying and holding experience by using simple python syntaxes and logics. Project inspired by Brocode's grocery list. 

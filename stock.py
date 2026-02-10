@@ -94,9 +94,14 @@ while True:
             print(f"Wait for directing: 00:0{wait_time_2}")
             time.sleep(1)
         turn = turn+1
-        portfolio.append(f"{turn}. {user_input}: {amount} stocks")
+        portfolio.append(f"{turn}. {user_input}: {amount} stocks. Price at bought: ${price_to_buy}")
         print("-----YOUR PORTFOLIO-----")
         for stock in portfolio:
             print(stock)
-        time.sleep(5)
+        print(f"-----CURRENT PRICE----- \n"
+                  f"BANKING: ${banking_stock}\n"
+                  f"VIN GROUP: ${vin_stock}\n"
+                  f"RETAIL AND INDUSTRIAL: ${retail_stock}\n"
+                  f"TECHNOLOGY: ${tech_stock}")
+        time.sleep(10)
 
